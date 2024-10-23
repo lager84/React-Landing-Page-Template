@@ -1,100 +1,273 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "Добро пожаловать в Архыз-Парк",
+    "paragraph": ""
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "База отдыха Архыз-Парк открылась в декабре 2022 года. Чистый горный воздух, дикая природа, живописные виды, вдали от трассы и шума. Находится на высоте 1500 метров над уровнем моря, в живописном предгорье, вблизи села Архыз. Небольшой комплекс домиков, находящихся на расстоянии друг от друга, дадут Вам возможность отдохнуть в тишине и уединении. Отдельно стоящие домики, общая мангальная зона, бесплатный паркинг, освещение на всей территории, бесплатный Wi-Fi.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Расположение",
+      "Бесплатный Wi-Fi",
+      "Активный отдых",
+      "Банный комплекс"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Современное жильё",
+      "Детская площадка",
+      "Зона барбекю",
+      "Великолепная природа"
     ]
   },
   "Gallery": [
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+      "title": "Зима3",
+      "largeImage": "img/portfolio/baza02.jpeg",
+      "smallImage": "img/portfolio/baza02-88f22399.webp",
+      "type": "winter"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
+      "title": "Зима1",
+      "largeImage": "img/portfolio/baza03.jpeg",
+      "smallImage": "img/portfolio/baza03-b5321c9c.webp",
+      "type": "winter"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
+      "title": "Зима2",
+      "largeImage": "img/portfolio/baza01.jpeg",
+      "smallImage": "img/portfolio/baza01-57bb332c (1).webp",
+      "type": "winter"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
+      "title": "Осень2",
+      "largeImage": "img/portfolio/02.jpeg",
+      "smallImage": "img/portfolio/02-85d83187.webp",
+      "type": "autumn"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
+      "title": "Осень3",
+      "largeImage": "img/portfolio/03 (1).jpeg",
+      "smallImage": "img/portfolio/03-315b9a7f (1).webp",
+      "type": "autumn"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
+      "title": "Осень4",
+      "largeImage": "img/portfolio/04.jpeg",
+      "smallImage": "img/portfolio/04-1e7fb2c7.webp",
+      "type": "autumn"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
+      "title": "Осень5",
+      "largeImage": "img/portfolio/photo_2023-05-03_20-20-21.jpg",
+      "smallImage": "img/portfolio/photo_2023-05-03_20-20-21-d7513de7.webp",
+      "type": "autumn"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
+      "title": "Весна1",
+      "largeImage": "img/portfolio/photo_2023-05-03_20-20-22.jpg",
+      "smallImage": "img/portfolio/photo_2023-05-03_20-20-22-67a71af1.webp",
+      "type": "spring"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "title": "Осень7",
+      "largeImage": "img/portfolio/photo_2023-05-03_20-20-31.jpg",
+      "smallImage": "img/portfolio/photo_2023-05-03_20-20-31-049f63ce.webp",
+      "type": "autumn"
+    },
+    {
+      "title": "Осень8",
+      "largeImage": "img/portfolio/photo_2023-05-03_20-20-38.jpg",
+      "smallImage": "img/portfolio/photo_2023-05-03_20-20-38-ae64121c.webp",
+      "type": "autumn"
+    },
+    {
+      "title": "Осень9",
+      "largeImage": "img/portfolio/photo_2023-05-03_20-20-55.jpg",
+      "smallImage": "img/portfolio/photo_2023-05-03_20-20-55-74d03de3.webp",
+      "type": "autumn"
+    },
+    {
+      "title": "Весна2",
+      "largeImage": "img/portfolio/photo_2023-05-07_10-16-56.jpg",
+      "smallImage": "img/portfolio/photo_2023-05-07_10-16-56-2e446ebd (1).webp",
+      "type": "spring"
+    },
+    {
+      "title": "Осень11",
+      "largeImage": "img/portfolio/photo_2023-05-07_10-16-58 (1).jpg",
+      "smallImage": "img/portfolio/photo_2023-05-07_10-16-58-b8ec10c5 (1).webp",
+      "type": "autumn"
+    },
+    {
+      "title": "Осень12",
+      "largeImage": "img/portfolio/photo_2023-05-07_10-16-59_2.jpg",
+      "smallImage": "img/portfolio/photo_2023-05-07_10-16-59_2-82bc6028.webp",
+      "type": "autumn"
+    },
+    {
+      "title": "Осень13",
+      "largeImage": "img/portfolio/photo_2023-05-07_10-17-00.jpg",
+      "smallImage": "img/portfolio/photo_2023-05-07_10-17-00-7ac40a62.webp",
+      "type": "autumn"
+    },
+    {
+      "title": "Осень14",
+      "largeImage": "img/portfolio/photo_2023-05-07_10-17-01.jpg",
+      "smallImage": "img/portfolio/photo_2023-05-07_10-17-01-02a951e3.webp",
+      "type": "autumn"
+    },
+    {
+      "title": "Осень15",
+      "largeImage": "img/portfolio/photo_2023-05-07_10-17-02.jpg",
+      "smallImage": "img/portfolio/photo_2023-05-07_10-17-02-2b56274f.webp",
+      "type": "autumn"
+    },
+    {
+      "title": "Весна3",
+      "largeImage": "img/portfolio/photo_2023-05-07_10-17-03.jpg",
+      "smallImage": "img/portfolio/photo_2023-05-07_10-17-03-44fbc5bd.webp",
+      "type": "spring"
+    },
+    {
+      "title": "Осень16",
+      "largeImage": "img/portfolio/photo_2023-05-07_10-16-59.jpg",
+      "smallImage": "img/portfolio/photo_2023-05-07_10-16-59-d741f237.webp",
+      "type": "autumn"
+    },
+    {
+      "title": "Осень17",
+      "largeImage": "img/portfolio/01.jpeg",
+      "smallImage": "img/portfolio/01-5a912132.webp",
+      "type": "autumn"
+    },
+    {
+      "title": "Лето1",
+      "largeImage": "img/portfolio/01.jpg",
+      "smallImage": "img/portfolio/01-1b03a471.webp",
+      "type": "summer"
+    },
+    {
+      "title": "Лето2",
+      "largeImage": "img/portfolio/02.jpg",
+      "smallImage": "img/portfolio/02-600d39ba.webp",
+      "type": "summer"
+    },
+    {
+      "title": "Лето3",
+      "largeImage": "img/portfolio/03.jpg",
+      "smallImage": "img/portfolio/03-0fa0db48.webp",
+      "type": "summer"
+    },
+    {
+      "title": "Лето4",
+      "largeImage": "img/portfolio/04.jpg",
+      "smallImage": "img/portfolio/04-44f4e474.webp",
+      "type": "summer"
+    },
+    {
+      "title": "Лето5",
+      "largeImage": "img/portfolio/05.jpg",
+      "smallImage": "img/portfolio/05-c55767aa.webp",
+      "type": "summer"
+    },
+    {
+      "title": "Лето6",
+      "largeImage": "img/portfolio/06.jpg",
+      "smallImage": "img/portfolio/06-9baf2190.webp",
+      "type": "summer"
+    },
+    {
+      "title": "Лето7",
+      "largeImage": "img/portfolio/07.jpg",
+      "smallImage": "img/portfolio/07-8305f3f4.webp",
+      "type": "summer"
+    },
+    {
+      "title": "Лето8",
+      "largeImage": "img/portfolio/08.jpg",
+      "smallImage": "img/portfolio/08-9363ca4b.webp",
+      "type": "summer"
+    },
+    {
+      "title": "Лето9",
+      "largeImage": "img/portfolio/09.jpg",
+      "smallImage": "img/portfolio/09-8bc9182f.webp",
+      "type": "summer"
+    },
+    {
+      "title": "Лето10",
+      "largeImage": "img/portfolio/10.jpg",
+      "smallImage": "img/portfolio/10-6bf5666e.webp",
+      "type": "summer"
     }
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "img/service/bed.svg",
+      "name": "Двуспальные, односпальные кровати",
+      "text": ""
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "img/service/shower.svg",
+      "name": "Вода из горных источников",
+      "text": ""
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "img/service/barbeque.svg",
+      "name": "Мангал с решеткой и шампурами",
+      "text": ""
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "img/service/bed-sheets.svg",
+      "name": "Постельное белье",
+      "text": ""
     },
     {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "img/service/park.svg",
+      "name": "Парковая зона",
+      "text": ""
     },
     {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "img/service/wifi.png",
+      "name": "Wi-Fi",
+      "text": ""
+    }
+  ],
+  "Rooms": [
+    {
+      "title": "Малый дом",
+      "total": "9000₽",
+      "type": "small",
+      "img": [
+        {
+          "title": "Лето9",
+          "largeImage": "img/portfolio/09.jpg",
+          "smallImage": "img/portfolio/09-8bc9182f.webp"
+        },
+        {
+          "title": "Лето9",
+          "largeImage": "img/portfolio/09.jpg",
+          "smallImage": "img/portfolio/09-8bc9182f.webp"
+        }
+      ],
+      "text":"Дом сдается в аренду минимум на двое суток. Заезд от 15:00,Выезд до 12:00 (Ранний заезд и поздний выезд по договоренности) Проживание с животными запрещено! Малый дом 40 кв/м с видом на горы (отдельная спальня и зал): Отдельная спальня с большой кроватью и тумбочкой, зал с раскладным диваном (размер спального места - 140*200), шкаф для одежды с зеркалом, вешалки для одежды, одноразовые тапочки, стол (раскладной), 4 стула, телевизор 32 дюйма (Smart Tv), бесплатный Wi-Fi, кухонный гарнитур, индукционная плита с кастрюлей и сковородкой, подсолнечное масло, соль, перец, столовый сервиз, бокалы для воды, шампанского, рюмки, кружки для чая на 4 персоны, заварочный чайник (приветственный горный чай, сахар в каждом домике), столовые приборы -ножи, вилки, ложки на 4 персоны, разделочные ножи, овощной нож, половник, лопатка, штопор, разделочная доска, шампура для мангала, решетка и дрова предоставляются бесплатно, средство для мытья посуды и губка, микроволновая печь, электрический чайник, большой холодильник с вместительной морозильной камерой. Ванная комната: Душевая кабина, туалет, раковина, гигиенический душ, фен, жидкое мыло для рук, туалетная бумага, шампунь и гель для душа в душевой. Полотенце и постельное белье имеется в каждом доме. Диван и кресла с мягкими подушками на открытой веранде, фирменные уютные пледы. Большая мангальная зона с освещением в которой имеется: тандыр, садж, казан, для каждого дома отдельный мангал. За отдельную плату предоставляются следующие услуги: стирка белья, экскурсии на автомобиле."
+    },
+    {
+      "title": "Большой дом",
+      "total": "11000₽",
+      "type": "big",
+      "img": [
+        {
+          "title": "Лето7",
+          "largeImage": "img/portfolio/07.jpg",
+          "smallImage": "img/portfolio/07-8305f3f4.webp"
+        },
+        {
+          "title": "Лето9",
+          "largeImage": "img/portfolio/09.jpg",
+          "smallImage": "img/portfolio/09-8bc9182f.webp"
+        }
+      ],
+      "text":"Заезд от 15:00, Выезд до 12:00 (Ранний заезд и поздний выезд по договоренности) Проживание с животными запрещено! Большой дом 54 кв/м с панорамным видом на горы (с двумя отдельным спальнями и зал): Две спальни, одна с большой кроватью, вторая с двумя раздельными односпальными кроватями, зал с раскладным диваном (размер спального места - 140*200), открытая вешалка с обувницей, вешалки для одежды, одноразовые тапочки, стол (раскладной), 4 стула, телевизор 32 дюйма (Smart Tv), бесплатный Wi-Fi, кухонный гарнитур, индукционная плита с кастрюлей и сковородкой, подсолнечное масло, соль, перец, столовый сервиз, бокалы для воды, шампанского, рюмки, кружки для чая-на 6 персон,заварочный чайник (приветственный горный чай, сахар в каждом домике), столовые приборы - ножи, вилки, ложки-на 6 персон, разделочные ножи, овощной нож, половник, лопатка, штопор, разделочная доска, шампура для мангала, решетка и дрова предоставляются бесплатно,средство для мытья посуды и губка,микроволновая печь,электрический чайник,большой холодильник с вместительной морозильной камерой. Ванная комната: Душевая кабина, туалет, раковина, гигиенический душ, фен, жидкое мыло для рук, туалетная бумага, шампунь и гель для душа в душевой. Полотенце и постельное белье имеется в каждом доме. Диван и кресла с мягкими подушками на открытой веранде, фирменные уютные пледы. Большая мангальная зона с освещением в которой имеется: тандыр, садж, казан, для каждого дома отдельный мангал. За отдельную плату предоставляются следующие услуги: стирка белья, экскурсии на автомобиле."
     }
   ],
   "Testimonials": [
