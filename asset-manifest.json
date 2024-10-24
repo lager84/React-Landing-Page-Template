@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/React-Landing-Page-Template/static/css/main.64a9b604.css",
+    "main.js": "/React-Landing-Page-Template/static/js/main.1da21c5f.js",
+    "static/media/InterVariable-Italic.woff2": "/React-Landing-Page-Template/static/media/InterVariable-Italic.e295f70fe3e2df296c7b.woff2",
+    "static/media/InterVariable.woff2": "/React-Landing-Page-Template/static/media/InterVariable.a0e477f2f1f9d2376fde.woff2",
+    "index.html": "/React-Landing-Page-Template/index.html",
+    "main.64a9b604.css.map": "/React-Landing-Page-Template/static/css/main.64a9b604.css.map",
+    "main.1da21c5f.js.map": "/React-Landing-Page-Template/static/js/main.1da21c5f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64a9b604.css",
+    "static/js/main.1da21c5f.js"
+  ]
+}
