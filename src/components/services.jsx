@@ -27,14 +27,14 @@ export const Services = (props) => {
         </div>
         {props.roomsData
         ?props.roomsData.map((d,i)=>(
-        <section key={`${d.type}-${i}`} className="section-rooms row" >
+        <section key={`${d.type}-${i}`} className="section-rooms row" style={{overflow:"hidden"}}>
         
           <div className="root-div-rooms row">
           <div className="section-title">
           <h2>{d.title}</h2>         
           </div>
-          <div className="col-md-4">
-            <img  src={d.img[0].smallImage} alt=""></img>
+          <div >
+            <img style={{marginLeft:"15px"}} src={d.img[0].smallImage} alt=""></img>
           </div>
           </div>
 
@@ -49,5 +49,6 @@ export const Services = (props) => {
         </section>)) : "Загрузка"}
       </div>
     </div>
+    
   );
 };

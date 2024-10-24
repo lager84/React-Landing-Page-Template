@@ -625,7 +625,7 @@ label {
 
    @media (max-width: 768px) {
     .div-but {
-      margin-left: 120px;
+      margin-left: 104px;
       margin-bottom: 30px;
       }
     } 
@@ -731,7 +731,6 @@ label {
   border-radius: 32px;
   display:flex;
   align-items:center;
- 
   
   
 }
@@ -742,8 +741,9 @@ label {
   //max-width: 33.33%;
   //gap:8px;
   //margin-left:20px;
-  padding-right: 15px;
+ // padding-right: 15px;
   padding-left: 15px;
+
   
 }
 .div-item-rooms{
