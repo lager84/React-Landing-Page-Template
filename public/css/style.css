@@ -630,6 +630,7 @@ label {
       }
     } 
 
+ 
 
   .divcartgroup {
     overflow-y: scroll;
@@ -765,6 +766,7 @@ label {
   text-align:left;
   margin:30px;
   line-height: 24px;
+ 
   
   
 }
@@ -775,4 +777,14 @@ label {
 
 .div-but{
  margin-right:5px;
+}
+
+.galleryRooms{
+  max-width:640px;
+}
+
+@media (max-width: 768px){
+  .galleryRooms{
+    max-width:400px;
+  }
 }

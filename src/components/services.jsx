@@ -1,7 +1,44 @@
-import React from "react";
+import {useRef, useState} from "react";
+import React  from "react";
 import { Button } from 'primereact/button';
+import { Galleria } from 'primereact/galleria';
+import "primereact/resources/themes/lara-light-blue/theme.css";
+import "primereact/resources/primereact.min.css";
+
 
 export const Services = (props) => {
+
+  const [full , setFull] = useState(false);
+  const galleria = useRef(null);
+ 
+  const responsiveOptions = [
+      {
+          breakpoint: '991px',
+          numVisible: 4
+      },
+      {
+          breakpoint: '767px',
+          numVisible: 3
+      },
+      {
+          breakpoint: '575px',
+          numVisible: 1
+      }
+  ];
+
+
+
+  const itemTemplate = (item) => {
+      return <img src={item.largeImage} alt={item.alt} style={{  width: '100%' ,display: 'block' }} />;
+  }
+
+  const thumbnailTemplate = (item) => {
+      return <img src={item.smallImage} alt={item.alt} style={{ display: 'block' }} />;
+  }
+
+
+  
+
   return (
     <div id="services" className="text-center">
       <div className="container">
@@ -28,13 +65,39 @@ export const Services = (props) => {
         {props.roomsData
         ?props.roomsData.map((d,i)=>(
         <section key={`${d.type}-${i}`} className="section-rooms row" style={{overflow:"hidden"}}>
-        
           <div className="root-div-rooms row">
           <div className="section-title">
           <h2>{d.title}</h2>         
           </div>
-          <div >
-            <img style={{marginLeft:"15px"}} src={d.img[0].smallImage} alt=""></img>
+          <div style={{marginBottom:"40px"}}>
+            {/* <img style={{marginLeft:"15px", maxWidth:"400px" }} src={d.img[0].smallImage} alt=""></img> */}
+            <Galleria   pt={{
+                nextItemButton: (state) => ({
+                  style: { color: "#e44d26", width: "8rem", height: "8rem" },
+                }),
+                previousItemButton: (state) => ({
+                  style: { color: "#e44d26", width: "8rem", height: "8rem" },
+                }),
+                nextItemIcon: (state) => ({
+                  style: { color: "#e44d26", width: "4rem", height: "4rem" },
+                }),
+                previousItemIcon: (state) => ({
+                  style: { color: "#e44d26", width: "4rem", height: "4rem" },
+                }),
+                nextThumbnailButton: (state) => ({
+                  style: { color: "#e44d26", width: "4rem", height: "4rem" },
+                }),
+                previousThumbnailButton: (state) => ({
+                  style: { color: "#e44d26", width: "4rem", height: "4rem" },
+                }),
+                nextThumbnailIcon: (state) => ({
+                  style: { color: "#e44d26", width: "2rem", height: "2rem" },
+                }),
+                previousThumbnailIcon: (state) => ({
+                  style: { color: "#e44d26", width: "2rem", height: "2rem" },
+                }),
+              }} autoPlay transitionInterval={2000} value={d.img} responsiveOptions={responsiveOptions} numVisible={5} circular fullScreen={full} className="galleryRooms" style={{marginLeft:"15px"}}
+            showItemNavigators item={itemTemplate} thumbnail={thumbnailTemplate} />
           </div>
           </div>
 
@@ -46,7 +109,7 @@ export const Services = (props) => {
           <div className="div-but">
           <Button  label={"Забронировать от " + d.total} className="img-services" rounded />
           </div>
-        </section>)) : "Загрузка"}
+        </section>)): "Загрузка"}
       </div>
     </div>
     

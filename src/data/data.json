@@ -239,14 +239,56 @@
       "type": "small",
       "img": [
         {
-          "title": "Лето9",
-          "largeImage": "img/portfolio/09.jpg",
-          "smallImage": "img/portfolio/09-8bc9182f.webp"
+          "title": "s1",
+          "largeImage": "img/service/small/02m-371b1dc8.webp",
+          "smallImage": "img/service/small/image1.jpg"
         },
         {
-          "title": "Лето9",
-          "largeImage": "img/portfolio/09.jpg",
-          "smallImage": "img/portfolio/09-8bc9182f.webp"
+          "title": "s2",
+          "largeImage": "img/service/small/photo_2023-05-03_20-21-59.jpg",
+          "smallImage": "img/service/small/image2.jpg"
+        }
+        ,
+        {
+          "title": "s3",
+          "largeImage": "img/service/small/photo_2023-05-03_20-21-59_2-e05023ff.webp",
+          "smallImage": "img/service/small/image3.jpg"
+        }
+        ,
+        {
+          "title": "s4",
+          "largeImage": "img/service/small/photo_2023-05-03_20-22-00-e20be65c.webp",
+          "smallImage": "img/service/small/image4.jpg"
+        }
+        ,
+        {
+          "title": "s5",
+          "largeImage": "img/service/small/photo_2023-05-03_20-22-02-ad07073b.webp",
+          "smallImage": "img/service/small/image5.jpg"
+        }
+        ,
+        {
+          "title": "s6",
+          "largeImage": "img/service/small/photo_2023-05-03_20-22-03-f95d610b.webp",
+          "smallImage": "img/service/small/image6.jpg"
+        }
+        ,
+        {
+          "title": "s7",
+          "largeImage": "img/service/small/photo_2023-05-03_20-22-04_2-36534453.webp",
+          "smallImage": "img/service/small/image7.jpg"
+        }
+        ,
+        {
+          "title": "s8",
+          "largeImage": "img/service/small/photo_2023-05-03_20-22-04-957181a7.webp",
+          "smallImage": "img/service/small/image8.jpg"
+        }
+        ,
+        {
+          "title": "s9",
+          "largeImage": "img/service/small/photo_2023-05-03_20-22-05-5f4f7234.webp",
+          "smallImage": "img/service/small/image9.jpg"
         }
       ],
       "text":"Дом сдается в аренду минимум на двое суток. Заезд от 15:00,Выезд до 12:00 (Ранний заезд и поздний выезд по договоренности) Проживание с животными запрещено! Малый дом 40 кв/м с видом на горы (отдельная спальня и зал): Отдельная спальня с большой кроватью и тумбочкой, зал с раскладным диваном (размер спального места - 140*200), шкаф для одежды с зеркалом, вешалки для одежды, одноразовые тапочки, стол (раскладной), 4 стула, телевизор 32 дюйма (Smart Tv), бесплатный Wi-Fi, кухонный гарнитур, индукционная плита с кастрюлей и сковородкой, подсолнечное масло, соль, перец, столовый сервиз, бокалы для воды, шампанского, рюмки, кружки для чая на 4 персоны, заварочный чайник (приветственный горный чай, сахар в каждом домике), столовые приборы -ножи, вилки, ложки на 4 персоны, разделочные ножи, овощной нож, половник, лопатка, штопор, разделочная доска, шампура для мангала, решетка и дрова предоставляются бесплатно, средство для мытья посуды и губка, микроволновая печь, электрический чайник, большой холодильник с вместительной морозильной камерой. Ванная комната: Душевая кабина, туалет, раковина, гигиенический душ, фен, жидкое мыло для рук, туалетная бумага, шампунь и гель для душа в душевой. Полотенце и постельное белье имеется в каждом доме. Диван и кресла с мягкими подушками на открытой веранде, фирменные уютные пледы. Большая мангальная зона с освещением в которой имеется: тандыр, садж, казан, для каждого дома отдельный мангал. За отдельную плату предоставляются следующие услуги: стирка белья, экскурсии на автомобиле."
@@ -257,14 +299,74 @@
       "type": "big",
       "img": [
         {
-          "title": "Лето7",
-          "largeImage": "img/portfolio/07.jpg",
-          "smallImage": "img/portfolio/07-8305f3f4.webp"
+          "title": "b1",
+          "largeImage": "img/service/big/01b-e3b48c64.webp",
+          "smallImage": "img/service/big/image1.jpg"
         },
         {
-          "title": "Лето9",
-          "largeImage": "img/portfolio/09.jpg",
-          "smallImage": "img/portfolio/09-8bc9182f.webp"
+          "title": "b2",
+          "largeImage": "img/service/big/03b-6902dc70.webp",
+          "smallImage": "img/service/big/image2.jpg"
+        },
+        {
+          "title": "b3",
+          "largeImage": "img/service/big/07b-c0528fc8.webp",
+          "smallImage": "img/service/big/image3.jpg"
+        },
+        {
+          "title": "b4",
+          "largeImage": "img/service/big/photo_2023-05-03_16-49-11_2-958f0dff.webp",
+          "smallImage": "img/service/big/image4.jpg"
+        },
+        {
+          "title": "b5",
+          "largeImage": "img/service/big/photo_2023-05-03_20-22-30_2-c0207746.webp",
+          "smallImage": "img/service/big/image5.jpg"
+        },
+        {
+          "title": "b6",
+          "largeImage": "img/service/big/photo_2023-05-03_20-22-30-68251e8f.webp",
+          "smallImage": "img/service/big/image6.jpg"
+        },
+        {
+          "title": "b7",
+          "largeImage": "img/service/big/photo_2023-05-03_20-22-31-a21bed1c.webp",
+          "smallImage": "img/service/big/image7.jpg"
+        },
+        {
+          "title": "b8",
+          "largeImage": "img/service/big/photo_2023-05-03_20-22-32_2-4a962752.webp",
+          "smallImage": "img/service/big/image8.jpg"
+        },
+        {
+          "title": "b9",
+          "largeImage": "img/service/big/photo_2023-05-03_20-22-32-502ecf7e.webp",
+          "smallImage": "img/service/big/image9.jpg"
+        },
+        {
+          "title": "b10",
+          "largeImage": "img/service/big/photo_2023-05-03_20-22-33-9a103ced.webp",
+          "smallImage": "img/service/big/image10.jpg"
+        },
+        {
+          "title": "b11",
+          "largeImage": "img/service/big/photo_2023-05-03_20-22-34-1184f146.webp",
+          "smallImage": "img/service/big/image11.jpg"
+        },
+        {
+          "title": "b12",
+          "largeImage": "img/service/big/photo_2023-05-03_20-22-35-dbba02d5.webp",
+          "smallImage": "img/service/big/image12.jpg"
+        },
+        {
+          "title": "b13",
+          "largeImage": "img/service/big/photo_2023-05-03_20-22-36-5e881021.webp",
+          "smallImage": "img/service/big/image13.jpg"
+        },
+        {
+          "title": "b14",
+          "largeImage": "img/service/big/photo_2023-05-03_20-22-37-e3b1d324.webp",
+          "smallImage": "img/service/big/image14.jpg"
         }
       ],
       "text":"Заезд от 15:00, Выезд до 12:00 (Ранний заезд и поздний выезд по договоренности) Проживание с животными запрещено! Большой дом 54 кв/м с панорамным видом на горы (с двумя отдельным спальнями и зал): Две спальни, одна с большой кроватью, вторая с двумя раздельными односпальными кроватями, зал с раскладным диваном (размер спального места - 140*200), открытая вешалка с обувницей, вешалки для одежды, одноразовые тапочки, стол (раскладной), 4 стула, телевизор 32 дюйма (Smart Tv), бесплатный Wi-Fi, кухонный гарнитур, индукционная плита с кастрюлей и сковородкой, подсолнечное масло, соль, перец, столовый сервиз, бокалы для воды, шампанского, рюмки, кружки для чая-на 6 персон,заварочный чайник (приветственный горный чай, сахар в каждом домике), столовые приборы - ножи, вилки, ложки-на 6 персон, разделочные ножи, овощной нож, половник, лопатка, штопор, разделочная доска, шампура для мангала, решетка и дрова предоставляются бесплатно,средство для мытья посуды и губка,микроволновая печь,электрический чайник,большой холодильник с вместительной морозильной камерой. Ванная комната: Душевая кабина, туалет, раковина, гигиенический душ, фен, жидкое мыло для рук, туалетная бумага, шампунь и гель для душа в душевой. Полотенце и постельное белье имеется в каждом доме. Диван и кресла с мягкими подушками на открытой веранде, фирменные уютные пледы. Большая мангальная зона с освещением в которой имеется: тандыр, садж, казан, для каждого дома отдельный мангал. За отдельную плату предоставляются следующие услуги: стирка белья, экскурсии на автомобиле."
