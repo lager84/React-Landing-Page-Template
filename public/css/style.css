@@ -404,16 +404,16 @@ header .intro-text {
   opacity: 1;
 }
 /* Testimonials Section */
-#testimonials {
+#news {
   padding: 100px 0;
   background: #f6f6f6;
 }
-#testimonials i {
+#news i {
   color: #e6e6e6;
   font-size: 32px;
   margin-bottom: 20px;
 }
-.testimonial {
+.news {
   position: relative;
   padding: 20px;
 }
@@ -732,6 +732,7 @@ label {
   border-radius: 32px;
   display:flex;
   align-items:center;
+
   
   
 }
@@ -744,6 +745,7 @@ label {
   //margin-left:20px;
  // padding-right: 15px;
   padding-left: 15px;
+  
 
   
 }
@@ -786,5 +788,19 @@ label {
 @media (max-width: 768px){
   .galleryRooms{
     max-width:400px;
+  }
+}
+
+.divVideo{
+  display:flex; 
+   maxWidth:200px; 
+   margin:15px; 
+   gap:8px;
+}
+
+@media (max-width: 768px){
+  .divVideo{
+    flex-wrap:wrap;
+    max-width:700px;
   }
 }

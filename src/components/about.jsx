@@ -1,6 +1,20 @@
 import React from "react";
+import { Galleria } from "primereact/galleria";
+import "primereact/resources/themes/lara-light-blue/theme.css";
+import "primereact/resources/primereact.min.css";
+
+
 
 export const About = (props) => {
+
+  const itemTemplate = (item) => {
+    return <img src={item} alt={item.alt} style={{ width: '100%', display: 'block' }} />;
+}
+
+const thumbnailTemplate = (item) => {
+    return <img src={item} alt={item.alt} style={{ display: 'block' }} />;
+}
+
   return (
     <div id="about">
       <div className="container">
@@ -8,6 +22,28 @@ export const About = (props) => {
           <div className="col-xs-12 col-md-6">
             {" "}
             <img src="img/about.jpg" className="img-responsive" alt="" />{" "}
+            {props.data
+                      ?  
+                      <Galleria 
+                      pt={{
+                        nextItemButton: (state) => ({
+                          style: { color: "#e44d26", width: "4rem", height: "8rem" },
+                        }),
+                        previousItemButton: (state) => ({
+                          style: { color: "#e44d26", width: "4rem", height: "8rem" },
+                        }),
+                        nextItemIcon: (state) => ({
+                          style: { color: "#e44d26", width: "2rem", height: "4rem" },
+                        }),
+                        previousItemIcon: (state) => ({
+                          style: { color: "#e44d26", width: "2rem", height: "4rem" },
+                        }),
+                      }}
+                      value={props.data.Gallery} numVisible={5} circular style={{ maxWidth: '520px' }} 
+                          showItemNavigators showItemNavigatorsOnHover showIndicators
+                          showThumbnails={false} item={itemTemplate} thumbnail={thumbnailTemplate} />
+                  
+                      : "loading"}        
           </div>
           <div className="col-xs-12 col-md-6">
             <div className="about-text">
@@ -32,6 +68,9 @@ export const About = (props) => {
                         ))
                       : "loading"}
                   </ul>
+                </div>
+                <div style={{paddingTop:"150px"}}>
+                <video src="img/about/IMG_5915.mp4" type="video/MP4" controls style={{maxWidth:"500px", width:"100%" , height:"350px" , objectFit:"cover" , zIndex:"-100"}}></video>
                 </div>
               </div>
             </div>

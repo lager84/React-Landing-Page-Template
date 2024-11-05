@@ -99,6 +99,12 @@ export const Services = (props) => {
               }} autoPlay transitionInterval={2000} value={d.img} responsiveOptions={responsiveOptions} numVisible={5} circular fullScreen={full} className="galleryRooms" style={{marginLeft:"15px"}}
             showItemNavigators item={itemTemplate} thumbnail={thumbnailTemplate} />
           </div>
+          {d.video_1?
+          <div  className="divVideo">
+          <video src={d.video_1} controls type="video/mp4" style={{ maxHeight:"600px"}}></video>
+          <video src={d.video_2} controls type="video/mp4" style={{ maxHeight:"600px"}}></video>
+          </div>: ""
+          }
           </div>
 
           <div className="text-services">
@@ -107,7 +113,7 @@ export const Services = (props) => {
           </p>
           </div>
           <div className="div-but">
-          <Button  label={"Забронировать от " + d.total} className="img-services" rounded />
+          <Button  label={"Забронировать" + d.total} className="img-services" rounded />
           </div>
         </section>)): "Загрузка"}
       </div>

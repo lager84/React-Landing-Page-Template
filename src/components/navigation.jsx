@@ -44,16 +44,16 @@ export const Navigation = (props) => {
             </li>
             <li>
               <a href="#services" className="page-scroll">
-               Номера
+               Проживание и сервис
+              </a>
+            </li>
+            <li>
+              <a href="#news" className="page-scroll">
+              Новости
               </a>
             </li>
             <li>
               <a href="#team" className="page-scroll">
-              Банный комплекс
-              </a>
-            </li>
-            <li>
-              <a href="#about" className="page-scroll">
               Архыз
               </a>
             </li>

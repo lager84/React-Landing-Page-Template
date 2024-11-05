@@ -105,6 +105,9 @@ export const Gallery = (props) => {
           <h2>Фотогалерея</h2>
           <p>Самый лучший отдых у нас.</p>
         </div>
+       <div>       
+       <a className="weatherwidget-io" href="https://forecast7.com/ru/43d5641d28/arkhyz/" >Arkhyz, Karachay-Cherkessia, Russia</a>
+       </div>
         <div className="tab-menu row">
         <TabMenu className="tab-item"
           model={items}
