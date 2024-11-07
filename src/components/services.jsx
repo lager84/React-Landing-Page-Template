@@ -1,4 +1,4 @@
-import {useRef, useState} from "react";
+//import {useRef, useState} from "react";
 import React  from "react";
 import { Button } from 'primereact/button';
 import { Galleria } from 'primereact/galleria';
@@ -8,8 +8,8 @@ import "primereact/resources/primereact.min.css";
 
 export const Services = (props) => {
 
-  const [full , setFull] = useState(false);
-  const galleria = useRef(null);
+  //const [full , setFull] = useState(false);
+  //const galleria = useRef(null);
  
   const responsiveOptions = [
       {
@@ -29,7 +29,7 @@ export const Services = (props) => {
 
 
   const itemTemplate = (item) => {
-      return <img src={item.largeImage} alt={item.alt} style={{  width: '100%' ,display: 'block' }} />;
+      return <img src={item.largeImage} alt={item.alt} style={{  width: '100%' , display: 'block' , backgroundSize:"cover" , backgroundRepeat:"no-repeat" , backgroundPosition:"50% 50%" }} />;
   }
 
   const thumbnailTemplate = (item) => {
@@ -96,7 +96,8 @@ export const Services = (props) => {
                 previousThumbnailIcon: (state) => ({
                   style: { color: "#e44d26", width: "2rem", height: "2rem" },
                 }),
-              }} autoPlay transitionInterval={2000} value={d.img} responsiveOptions={responsiveOptions} numVisible={5} circular fullScreen={full} className="galleryRooms" style={{marginLeft:"15px"}}
+              }} autoPlay transitionInterval={2000} value={d.img} responsiveOptions={responsiveOptions} numVisible={5} circular  className="galleryRooms" style={{marginLeft:"15px"}}
+              // fullScreen={full}
             showItemNavigators item={itemTemplate} thumbnail={thumbnailTemplate} />
           </div>
           {d.video_1?

@@ -788,6 +788,8 @@ label {
 
 .galleryRooms{
   max-width:640px;
+  width: 100%;
+  
 }
 
 @media (max-width: 768px){
