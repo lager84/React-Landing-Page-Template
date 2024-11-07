@@ -443,21 +443,21 @@ header .intro-text {
   font-weight: 600;
   color: #666;
 }
-/* Team Section */
-#team {
+/*Relaxation Section */
+#relaxation {
   padding: 100px 0;
 }
-#team h4 {
+#relaxation h4 {
   margin: 5px 0;
 }
-#team .team-img {
+#relaxation .relaxation-img {
   width: 240px;
 }
-#team .thumbnail {
+#relaxation .thumbnail {
   background: transparent;
   border: 0;
 }
-#team .thumbnail .caption {
+#relaxation .thumbnail .caption {
   padding: 10px 0 0;
   color: #888;
 }
@@ -731,28 +731,20 @@ label {
   margin-top: 2rem;
   border-radius: 32px;
   display:flex;
-  align-items:center;
+  align-items:center; 
 
-
-  flex-wrap: wrap;
-  justify-content:center;
-
-  
-  
 }
+
 .root-div-rooms{
   //margin:1.5rem;
-  display:flex;
-  flex-direction:column;
+  
+  
+  
   //max-width: 33.33%;
   //gap:8px;
   //margin-left:20px;
  // padding-right: 15px;
   padding-left: 15px;
-  
-  
-
-  
 }
 .div-item-rooms{
  // margin:1.5rem;
@@ -773,8 +765,6 @@ label {
   text-align:left;
   margin:30px;
   line-height: 24px;
- 
-  
   
 }
 

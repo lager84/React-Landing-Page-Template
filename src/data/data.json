@@ -464,39 +464,38 @@
       "text":"Архыз-Пар - это банный комплекс, который является частью базы отдыха Архыз-Парк расположенной на высоте 1500 метров над уровнем моря, в живописном предгорье, вблизи села Архыз. Чистый горный воздух, дикая природа, живописные виды, вдали от трассы и шума. Большая печь весом 1.5 тонный, из них 1 тонна настоящих карельских камней. Настоящая печь на дровах равномерно прогревает всю парную. Сила жара и дыхание природы Архыза для каждого гостя. В Архыз-Паре имеется парная, две душевые, фирменные парео, фирменные банные шапки, гостиная с ТВ. На веранде находится чан."
     }
   ],
-  "Testimonials": [
+  "News": [
     {
-      "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "name":1,
+      "post": "arhizpark/1209"
+      
     },
     {
-      "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "name":2,
+      "post": "arhizpark/1208"
+
     },
     {
-      "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "name":3,
+      "post": "arhizpark/1204"
+
     },
     {
-      "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "name":4,
+      "post": "arhizpark/1201"
+
     },
     {
-      "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "name":5,
+      "post": "arhizpark/1200"
     },
     {
-      "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "name":6,
+      "post": "arhizpark/1199"
+
     }
   ],
-  "Team": [
+  "Relaxation": [
     {
       "img": "img/team/01.jpg",
       "name": "John Doe",

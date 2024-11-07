@@ -29,7 +29,7 @@ export const Services = (props) => {
 
 
   const itemTemplate = (item) => {
-      return <img src={item.largeImage} alt={item.alt} style={{  width: '100%' , display: 'block' , backgroundSize:"cover" , backgroundRepeat:"no-repeat" , backgroundPosition:"50% 50%" }} />;
+      return <img src={item.largeImage} alt={item.alt} style={{  width: '100%' , display: 'block', height:'900px' , objectFit:'cover' }} />;
   }
 
   const thumbnailTemplate = (item) => {
@@ -111,7 +111,7 @@ export const Services = (props) => {
           <p className="text-p-services">
           {d.text}
           </p>
-          </div>
+          </div>          
           <div className="div-but">
           <Button  label={"Забронировать" + d.total} className="img-services" rounded />
           </div>
