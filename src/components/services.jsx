@@ -103,10 +103,9 @@ export const Services = (props) => {
           <div  className="divVideo">
           <video src={d.video_1} controls type="video/mp4" style={{ maxHeight:"600px"}}></video>
           <video src={d.video_2} controls type="video/mp4" style={{ maxHeight:"600px"}}></video>
-          </div>: ""
+          </div> : ""
           }
           </div>
-
           <div className="text-services">
           <p className="text-p-services">
           {d.text}

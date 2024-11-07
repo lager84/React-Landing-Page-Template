@@ -40,7 +40,7 @@ const thumbnailTemplate = (item) => {
                         }),
                       }}
                       value={props.data.Gallery} numVisible={5} circular style={{ maxWidth: '520px' }} 
-                          showItemNavigators showItemNavigatorsOnHover showIndicators
+                          showItemNavigators showItemNavigatorsOnHover showIndicators autoPlay transitionInterval={2000} 
                           showThumbnails={false} item={itemTemplate} thumbnail={thumbnailTemplate} />
                   
                       : "loading"}        

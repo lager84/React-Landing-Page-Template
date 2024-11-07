@@ -733,6 +733,10 @@ label {
   display:flex;
   align-items:center;
 
+
+  flex-wrap: wrap;
+  justify-content:center;
+
   
   
 }
@@ -745,6 +749,7 @@ label {
   //margin-left:20px;
  // padding-right: 15px;
   padding-left: 15px;
+  
   
 
   
@@ -778,7 +783,7 @@ label {
 }
 
 .div-but{
- margin-right:5px;
+ margin:20px;
 }
 
 .galleryRooms{
