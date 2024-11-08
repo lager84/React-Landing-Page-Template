@@ -98,6 +98,8 @@ export const Gallery = (props) => {
     return fdate;
   }, [images]);
 
+
+
   return (
     <div id="portfolio" className="text-center">
       <div className="container">

@@ -496,31 +496,439 @@
     }
   ],
   "Relaxation": [
+  
     {
-      "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "activeIndex":0,
+      "type":"eco",
+      "img_title": "img/relaxation/eco/ecotropa/001-0fdf8b67.webp",
+      "img":[
+        {
+          "title": "e1",
+          "largeImage": "img/relaxation/eco/ecotropa/002.jpg",
+          "smallImage": "img/relaxation/eco/ecotropa/002.jpg"
+        }
+        ,
+        {
+          "title": "e2",
+          "largeImage": "img/relaxation/eco/ecotropa/003.jpg",
+          "smallImage": "img/relaxation/eco/ecotropa/003.jpg"
+        }
+        ,
+        {
+          "title": "e3",
+          "largeImage": "img/relaxation/eco/ecotropa/004.jpg",
+          "smallImage": "img/relaxation/eco/ecotropa/004.jpg"
+        }
+        ,
+        {
+          "title": "e4",
+          "largeImage": "img/relaxation/eco/ecotropa/005.jpg",
+          "smallImage": "img/relaxation/eco/ecotropa/005.jpg"
+        }
+      ],
+      "title": "Лесная экотропа",
+      "text": "Лесная экотропа от верхней станции канатной дороги «Млечный путь» вниз к поселку Романтик "
     },
     {
-      "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "activeIndex":null,
+      "type":"eco",
+      "img_title": "img/relaxation/eco/fedoseeva/001-897a77fe.webp",
+      "img":[
+        {
+          "title": "e1",
+          "largeImage": "img/relaxation/eco/fedoseeva/002.jpg",
+          "smallImage": "img/relaxation/eco/fedoseeva/002.jpg"
+        }
+        ,
+        {
+          "title": "e2",
+          "largeImage": "img/relaxation/eco/fedoseeva/003.jpg",
+          "smallImage": "img/relaxation/eco/fedoseeva/003.jpg"
+        }
+        ,
+        {
+          "title": "e3",
+          "largeImage": "img/relaxation/eco/fedoseeva/004.jpg",
+          "smallImage": "img/relaxation/eco/fedoseeva/004.jpg"
+        }
+        ,
+        {
+          "title": "e4",
+          "largeImage": "img/relaxation/eco/fedoseeva/005.jpg",
+          "smallImage": "img/relaxation/eco/fedoseeva/005.jpg"
+        }
+      ],
+      "title": "Перевал Федосеева",
+      "text": "Один из самых близких и удобных маршрутов Архыза. Тропа начинается не с подножья горы, а со смотровой 2240 м, куда можно подняться на гондольной канатной дороге «Млечный путь»."
     },
     {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
+      "activeIndex":null,
+      "type":"eco",
+      "img_title": "img/relaxation/eco/sofiskie_ozera/001-bd535d94.webp",
+      "img":[
+        {
+          "title": "e1",
+          "largeImage": "img/relaxation/eco/sofiskie_ozera/002.jpg",
+          "smallImage": "img/relaxation/eco/sofiskie_ozera/002.jpg"
+        }
+        ,
+        {
+          "title": "e2",
+          "largeImage": "img/relaxation/eco/sofiskie_ozera/003.jpg",
+          "smallImage": "img/relaxation/eco/sofiskie_ozera/003.jpg"
+        }
+        ,
+        {
+          "title": "e3",
+          "largeImage": "img/relaxation/eco/sofiskie_ozera/004.jpg",
+          "smallImage": "img/relaxation/eco/sofiskie_ozera/004.jpg"
+        }
+        ,
+        {
+          "title": "e4",
+          "largeImage": "img/relaxation/eco/sofiskie_ozera/005.jpg",
+          "smallImage": "img/relaxation/eco/sofiskie_ozera/005.jpg"
+        }
+      ],
+      "title": "Софийские озёра",
+      "text": "Софийскими называют три озера рядом с горой София, второй по высоте в Архызе после Пшиша. Высота Пшиша — 3790 м, Софии — 3637 м. Озера лежат в цирке, то есть естественном углублении между горами Иркиз (2840), Кёль (3150 м) и Минги-Кёль-Баши (3243 м). Цирки образуется под давлением ледников со снежниками и нередко заполняются водой. Так появляются ледниковые озера, так возникли и и Софийские."
     },
     {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+
+      "activeIndex":null,
+      "type":"eco",
+      "img_title": "img/relaxation/eco/sofiskie_vodopad/001-a5c80d01.webp",
+      "img":[
+        {
+          "title": "e1",
+          "largeImage": "img/relaxation/eco/sofiskie_vodopad/002.jpg",
+          "smallImage": "img/relaxation/eco/sofiskie_vodopad/002.jpg"
+        }
+        ,
+        {
+          "title": "e2",
+          "largeImage": "img/relaxation/eco/sofiskie_vodopad/003.jpg",
+          "smallImage": "img/relaxation/eco/sofiskie_vodopad/003.jpg"
+        }
+        ,
+        {
+          "title": "e3",
+          "largeImage": "img/relaxation/eco/sofiskie_vodopad/004.jpg",
+          "smallImage": "img/relaxation/eco/sofiskie_vodopad/004.jpg"
+        }
+        ,
+        {
+          "title": "e4",
+          "largeImage": "img/relaxation/eco/sofiskie_vodopad/005.jpg",
+          "smallImage": "img/relaxation/eco/sofiskie_vodopad/005.jpg"
+        }
+      ],
+      "title": "Софийские водопады",
+      "text": "Водопады горы София ­— лучшие претенденты на звание визитной карточки Архыза. Широкие и величественные, они набирают силу летом, когда тает Софийский ледник. И срываются с 90-метровой высоты, давая начало реке София."
     }
+    ,
+    {
+      "activeIndex":null,
+      "type":"eco",
+      "img_title": "img/relaxation/eco/dukinskie/002-96ce88ab.webp",
+      "img":[
+        {
+          "title": "e1",
+          "largeImage": "img/relaxation/eco/dukinskie/002.jpg",
+          "smallImage": "img/relaxation/eco/sofiskie_vodopad/002.jpg"
+        }
+        ,
+        {
+          "title": "e2",
+          "largeImage": "img/relaxation/eco/dukinskie/003.jpg",
+          "smallImage": "img/relaxation/eco/dukinskie/003.jpg"
+        }
+        ,
+        {
+          "title": "e3",
+          "largeImage": "img/relaxation/eco/dukinskie/004.jpg",
+          "smallImage": "img/relaxation/eco/dukinskie/004.jpg"
+        }
+        ,
+        {
+          "title": "e4",
+          "largeImage": "img/relaxation/eco/dukinskie/005.jpg",
+          "smallImage": "img/relaxation/eco/dukinskie/005.jpg"
+        }
+      ],
+      "title": "Дуккинские озера",
+      "text": "Дуккинскими называют озера в верховьях реки Малая Дукка на хребте Аркасара. Иногда их же зовут Аркасарскими, хотя официально такое имя носит лишь одно из них."
+    }
+    ,
+    {
+      "activeIndex":null,
+      "type":"eco",
+      "img_title": "img/relaxation/eco/tiberdin/001-ba2cf026.webp",
+      "img":[
+        {
+          "title": "e1",
+          "largeImage": "img/relaxation/eco/tiberdin/001.jpg",
+          "smallImage": "img/relaxation/eco/tiberdin/001.jpg"
+        }
+        ,
+        {
+          "title": "e2",
+          "largeImage": "img/relaxation/eco/tiberdin/002.jpg",
+          "smallImage": "img/relaxation/eco/tiberdin/002.jpg"
+        }
+        ,
+        {
+          "title": "e3",
+          "largeImage": "img/relaxation/eco/tiberdin/003.jpg",
+          "smallImage": "img/relaxation/eco/tiberdin/003.jpg"
+        }
+        ,
+        {
+          "title": "e4",
+          "largeImage": "img/relaxation/eco/tiberdin/004.jpg",
+          "smallImage": "img/relaxation/eco/tiberdin/004.jpg"
+        }
+      ],
+      "title": "Тебердинский нацпарк",
+      "text": "Тебердинский нацпарк охраняет высокогорья северо-западной части Главного Кавказского хребта."
+    }
+    ,
+    {
+      "activeIndex":0,
+      "type":"active",
+      "img_title": "img/relaxation/active/gornolg/001-fd82e914.webp",
+      "img":[
+        {
+          "title": "e1",
+          "largeImage": "img/relaxation/active/gornolg/002.jpg",
+          "smallImage": "img/relaxation/active/gornolg/002.jpg"
+        }
+        ,
+        {
+          "title": "e2",
+          "largeImage": "img/relaxation/active/gornolg/003.jpg",
+          "smallImage": "img/relaxation/active/gornolg/003.jpg"
+        }
+        ,
+        {
+          "title": "e3",
+          "largeImage": "img/relaxation/active/gornolg/004.jpg",
+          "smallImage": "img/relaxation/active/gornolg/004.jpg"
+        }
+        ,
+        {
+          "title": "e4",
+          "largeImage": "img/relaxation/active/gornolg/005.jpg",
+          "smallImage": "img/relaxation/active/gornolg/005.jpg"
+        }
+      ],
+      "title": "Лыжи, сноуборды",
+      "text": ""
+    }
+    ,
+    {
+      "activeIndex":null,
+      "type":"active",
+      "img_title": "img/relaxation/active/jeep/001-c2118869.webp",
+      "img":[
+        {
+          "title": "e1",
+          "largeImage": "img/relaxation/active/jeep/002.jpg",
+          "smallImage": "img/relaxation/active/jeep/002.jpg"
+        }
+        ,
+        {
+          "title": "e2",
+          "largeImage": "img/relaxation/active/jeep/003.jpg",
+          "smallImage": "img/relaxation/active/jeep/003.jpg"
+        }
+        ,
+        {
+          "title": "e3",
+          "largeImage": "img/relaxation/active/jeep/004.jpg",
+          "smallImage": "img/relaxation/active/jeep/004.jpg"
+        }
+        ,
+        {
+          "title": "e4",
+          "largeImage": "img/relaxation/active/jeep/005.jpg",
+          "smallImage": "img/relaxation/active/jeep/005.jpg"
+        }
+      ],
+      "title": "Джипинг",
+      "text": ""
+    }
+    ,
+    {
+      "activeIndex":null,
+      "type":"active",
+      "img_title": "img/relaxation/active/bike/001-cec768aa.webp",
+      "img":[
+        {
+          "title": "e1",
+          "largeImage": "img/relaxation/active/bike/002.jpg",
+          "smallImage": "img/relaxation/active/bike/002.jpg"
+        }
+        ,
+        {
+          "title": "e2",
+          "largeImage": "img/relaxation/active/bike/003.jpg",
+          "smallImage": "img/relaxation/active/bike/003.jpg"
+        }
+        ,
+        {
+          "title": "e3",
+          "largeImage": "img/relaxation/active/bike/004.jpg",
+          "smallImage": "img/relaxation/active/bike/004.jpg"
+        }
+        ,
+        {
+          "title": "e4",
+          "largeImage": "img/relaxation/active/bike/005.jpg",
+          "smallImage": "img/relaxation/active/bike/005.jpg"
+        }
+      ],
+      "title": "Байк-парк",
+      "text": ""
+    }
+    ,
+    {
+      "activeIndex":null,
+      "type":"active",
+      "img_title": "img/relaxation/active/rafting/001-fb464bba.webp",
+      "img":[
+        {
+          "title": "e1",
+          "largeImage": "img/relaxation/active/rafting/002.jpg",
+          "smallImage": "img/relaxation/active/rafting/002.jpg"
+        }
+        ,
+        {
+          "title": "e2",
+          "largeImage": "img/relaxation/active/rafting/003.jpg",
+          "smallImage": "img/relaxation/active/rafting/003.jpg"
+        }
+        ,
+        {
+          "title": "e3",
+          "largeImage": "img/relaxation/active/rafting/004.jpg",
+          "smallImage": "img/relaxation/active/rafting/004.jpg"
+        }
+        ,
+        {
+          "title": "e4",
+          "largeImage": "img/relaxation/active/rafting/005.jpg",
+          "smallImage": "img/relaxation/active/rafting/005.jpg"
+        }
+      ],
+      "title": "Рафтинг",
+      "text": ""
+    }
+    ,
+    {
+      "activeIndex":null,
+      "type":"active",
+      "img_title": "img/relaxation/active/kvadro/001-3fa31224.webp",
+      "img":[
+        {
+          "title": "e1",
+          "largeImage": "img/relaxation/active/kvadro/002.jpg",
+          "smallImage": "img/relaxation/active/kvadro/002.jpg"
+        }
+        ,
+        {
+          "title": "e2",
+          "largeImage": "img/relaxation/active/kvadro/003.jpg",
+          "smallImage": "img/relaxation/active/kvadro/003.jpg"
+        }
+        ,
+        {
+          "title": "e3",
+          "largeImage": "img/relaxation/active/kvadro/004.jpg",
+          "smallImage": "img/relaxation/active/kvadro/004.jpg"
+        }
+        ,
+        {
+          "title": "e4",
+          "largeImage": "img/relaxation/active/kvadro/005.jpg",
+          "smallImage": "img/relaxation/active/kvadro/005.jpg"
+        }
+      ],
+      "title": "Квадроциклы",
+      "text": ""
+    }
+    ,
+    {
+      "activeIndex":null,
+      "type":"active",
+      "img_title": "img/relaxation/active/horse/001-91fbf581.webp",
+      "img":[
+        {
+          "title": "e1",
+          "largeImage": "img/relaxation/active/horse/002.jpg",
+          "smallImage": "img/relaxation/active/horse/002.jpg"
+        }
+        ,
+        {
+          "title": "e2",
+          "largeImage": "img/relaxation/active/horse/003.jpg",
+          "smallImage": "img/relaxation/active/horse/003.jpg"
+        }
+        ,
+        {
+          "title": "e3",
+          "largeImage": "img/relaxation/active/horse/004.jpg",
+          "smallImage": "img/relaxation/active/horse/004.jpg"
+        }
+        ,
+        {
+          "title": "e4",
+          "largeImage": "img/relaxation/active/horse/005.jpg",
+          "smallImage": "img/relaxation/active/horse/005.jpg"
+        }
+      ],
+      "title": "Конные прогулки",
+      "text": ""
+    }
+    ,
+    {
+      "activeIndex":null,
+      "type":"active",
+      "img_title": "img/relaxation/active/ver/001-fc397d67.webp",
+      "img":[
+        {
+          "title": "e1",
+          "largeImage": "img/relaxation/active/ver/001.jpg",
+          "smallImage": "img/relaxation/active/ver/001.jpg"
+        }
+        ,
+        {
+          "title": "e2",
+          "largeImage": "img/relaxation/active/ver/002.jpg",
+          "smallImage": "img/relaxation/active/ver/002.jpg"
+        }
+        ,
+        {
+          "title": "e3",
+          "largeImage": "img/relaxation/active/ver/003.jpg",
+          "smallImage": "img/relaxation/active/ver/003.jpg"
+        }
+        ,
+        {
+          "title": "e4",
+          "largeImage": "img/relaxation/active/ver/004.jpg",
+          "smallImage": "img/relaxation/active/ver/004.jpg"
+        }
+      ],
+      "title": "Верёвочный парк",
+      "text": "Работает на верхней станции канатной дороги «Спутник». Он предлагает два маршрута — взрослый и детский, так что никто не уйдет расстроенным."
+    }
+   
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
+    "address": "Россия, Карачаево-Черкесская Республика, Зеленчукский район, пос.Архыз",
+    "phone": "+7 938-035-58-88",
+    "email": "arkhyz-park@mail.ru",
     "facebook": "fb.com",
     "twitter": "twitter.com",
     "youtube": "youtube.com"
@@ -546,5 +954,7 @@
       "title": "Lorem ipsum",
       "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
     }
+    
+  
   ]
 }
