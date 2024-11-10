@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { useState, useRef } from "react";
 import { Accordion, AccordionTab } from "primereact/accordion";
 import "primereact/resources/themes/lara-light-blue/theme.css";

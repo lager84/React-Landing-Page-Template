@@ -2,6 +2,7 @@ import { useState } from "react";
 import emailjs from "emailjs-com";
 import React from "react";
 
+
 const initialState = {
   name: "",
   email: "",
@@ -35,6 +36,20 @@ export const Contact = (props) => {
         }
       );
   };
+
+  React.useEffect(() => {
+    const script = document.createElement('script');
+  
+    script.src = "https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A929d5dd3c0e1968e3f490ac4573a2e1fc74834067d2b23d53d70e2c087a3b339&amp;width=550&amp;height=440&amp;lang=ru_RU&amp;scroll=true";
+    script.async = true;
+  
+    document.getElementById('map').appendChild(script);
+  
+    return () => {
+      document.getElementById('map').removeChild(script);
+    }
+  }, []);
+
   return (
     <div>
       <div id="contact">
@@ -56,7 +71,7 @@ export const Contact = (props) => {
                         id="name"
                         name="name"
                         className="form-control"
-                        placeholder="Name"
+                        placeholder="Имя"
                         required
                         onChange={handleChange}
                       />
@@ -84,7 +99,7 @@ export const Contact = (props) => {
                     id="message"
                     className="form-control"
                     rows="4"
-                    placeholder="Message"
+                    placeholder="Сообщение"
                     required
                     onChange={handleChange}
                   ></textarea>
@@ -92,7 +107,7 @@ export const Contact = (props) => {
                 </div>
                 <div id="success"></div>
                 <button type="submit" className="btn btn-custom btn-lg">
-                  Send Message
+                  Отправить
                 </button>
               </form>
             </div>
@@ -106,6 +121,8 @@ export const Contact = (props) => {
                 </span>
                 {props.data ? props.data.address : "loading"}
               </p>
+              <div id='map' style={{width:'350px' , height:'313px'}}>            
+              </div>
             </div>
             <div className="contact-item">
               <p>
@@ -129,20 +146,20 @@ export const Contact = (props) => {
               <div className="social">
                 <ul>
                   <li>
-                    <a href={props.data ? props.data.facebook : "/"}>
-                      <i className="fa fa-telegram"></i>
+                    <a href={props.data ? props.data.telegram : "/"}>
+                    <i className="fa-brands fa-telegram" style={{fontSize:'48px'}}></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.twitter : "/"}>
-                      <i className="fa fa-twitter"></i>
+                    <a href={props.data ? props.data.whatsapp : "/"}>
+                      <i className="fa-brands fa-whatsapp" style={{fontSize:'48px'}} ></i>
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a href={props.data ? props.data.youtube : "/"}>
                       <i className="fa fa-youtube"></i>
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -152,10 +169,10 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            &copy; 2023 Issaaf Kattan React Land Page Template. Design by{" "}
-            <a href="http://www.templatewire.com" rel="nofollow">
+            &copy; 2024 Архыз Парк{" "}
+            {/* <a href="http://www.templatewire.com" rel="nofollow">
               TemplateWire
-            </a>
+            </a> */}
           </p>
         </div>
       </div>

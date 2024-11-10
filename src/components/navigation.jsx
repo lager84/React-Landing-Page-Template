@@ -3,8 +3,10 @@ import React from "react";
 export const Navigation = (props) => {
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
+      
       <div className="container">
         <div className="navbar-header">
+      
           <button
             type="button"
             className="navbar-toggle collapsed"
@@ -17,11 +19,17 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
-          <a className="navbar-brand page-scroll" href="#page-top">
+          {/* <a href="https://t.me/arhizpark">
+          <i className="fa-brands fa-telegram" style={{fontSize:'24px' , marginRight:'10px', color:"#e44d26"}} ></i>
+          </a>
+          <a href="https://wa.me/message/J5RIVBNFTJWSF1">
+          <i className="fa-brands fa-whatsapp" style={{fontSize:'24px' , color:"#e44d26"}} ></i>
+          </a>
+       */}
+          <a className="navbar-brand page-scroll" href="#page-top"> 
           Архыз-Парк
           </a>{" "}
         </div>
-
         <div
           className="collapse navbar-collapse"
           id="bs-example-navbar-collapse-1"

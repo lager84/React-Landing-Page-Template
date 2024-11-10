@@ -464,7 +464,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #898B8A 0%, #393E46 100%);
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
@@ -474,7 +474,7 @@ header .intro-text {
   font-size: 16px;
 }
 #contact h2 {
-  color: #fff;
+  color: #e44d26;
   margin-top: 10px;
   margin-bottom: 15px;
   padding-bottom: 15px;
@@ -482,14 +482,14 @@ header .intro-text {
 #contact .section-title h2::after {
   position: absolute;
   content: "";
-  background: rgba(255, 255, 255, 0.3);
+  background: #fff;
   height: 4px;
   width: 60px;
   bottom: 0;
   left: 30px;
 }
 #contact h3 {
-  color: #fff;
+  color: #e44d26;
   margin-top: 80px;
   margin-bottom: 25px;
   padding-bottom: 20px;
@@ -505,7 +505,7 @@ header .intro-text {
 #contact .btn-custom {
   margin: 30px 0;
   background: transparent;
-  border: 2px solid #fff;
+  border: 2px solid #e44d26;
 }
 #contact .btn-custom:hover {
   color: #1f386e;
@@ -623,12 +623,7 @@ label {
     }
   
 
-   @media (max-width: 768px) {
-    .div-but {
-      margin-left: 104px;
-      margin-bottom: 30px;
-      }
-    } 
+ 
 
  
 
@@ -775,6 +770,12 @@ label {
 .div-but{
  margin:20px;
 }
+
+@media (max-width: 768px) {
+  .div-but {
+   width:100%
+    }
+  } 
 
 .galleryRooms{
   max-width:640px;
